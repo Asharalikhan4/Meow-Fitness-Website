@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/websiteBackground.jpg);
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
+  .left{
+      /* border: 3px solid red; */
+      color: seashell;
+      display: inline-block;
+      margin: 30px 0px 0px 26px;
+  }
+
+  .left div{
+      text-align: center;
+      line-height: 18px;   /* Line height is used for the distance between the upper line and the lower line*/
+      font-size: 20px;
+  }
+
+  .left img{
+    height: 40px;
+    width: 85px;
+    filter: invert(100);
+  }
+
+  .mid{
+      position: absolute;
+      left: 375px;
+      top: 55px;
+      /* border: 3px solid blue; */
+      color: seashell;
+      display: inline-block;   /*we set the property to the inline-block so we can aslo change the width of our inline block*/
+      margin: auto;
+  }
+
+  .navbar li{
+      display: inline-block;
+      text-decoration: none;
+  }
+
+  .navbar li a{
+      color: cornsilk;
+      text-decoration: none;
+      padding: 30px;
+      font-size: 20px;
+  }
+
+  .navbar li a:hover, .navbar li a.active{
+      color: grey;
+      text-decoration: underline;
+  }
+
+  .right{
+      display: inline-block;
+      position: absolute;
+      right: 40px;
+      top: 40px;
+      /* border: 3px solid green; */
+      color: seashell;
+  }
+
+  .btn{
+      font-family: 'Noto Sans Mono', monospace;
+      border-radius: 3px;
+      margin: 11px 14px 0px 10px;
+      background-color: black;
+      color: white;
+      padding: 4px;
+      border: 2px solid grey;
+      border-radius: 8px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: grey;
+}
+
+.container{
+    /* border: 3px solid green; */
+    margin: 100px 275px;
+    padding: 0px 0px;
+    width: 61%;
+    border-radius: 2px;
+    color: white;
+}
+
+#heading{
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container .btn{
+    display: block;
+    width: 325px;
+    font-size: 15px;
+    margin: auto;
+}
+
